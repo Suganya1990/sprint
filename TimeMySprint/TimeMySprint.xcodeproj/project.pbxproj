@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB9868A12DA6F43C009210E9 /* TimeMySprint Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DB9868A02DA6F43C009210E9 /* TimeMySprint Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB9868A22DA6F43C009210E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9868942DA6F43C009210E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB98689F2DA6F43C009210E9;
+			remoteInfo = "TimeMySprint Watch App";
+		};
+		DB9868B32DA6F43E009210E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9868942DA6F43C009210E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB98689F2DA6F43C009210E9;
+			remoteInfo = "TimeMySprint Watch App";
+		};
+		DB9868BD2DA6F43E009210E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9868942DA6F43C009210E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB98689F2DA6F43C009210E9;
+			remoteInfo = "TimeMySprint Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB9868C92DA6F43E009210E9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DB9868A12DA6F43C009210E9 /* TimeMySprint Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB98689A2DA6F43C009210E9 /* TimeMySprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeMySprint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9868A02DA6F43C009210E9 /* TimeMySprint Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimeMySprint Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9868B22DA6F43E009210E9 /* TimeMySprint Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimeMySprint Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9868BC2DA6F43E009210E9 /* TimeMySprint Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimeMySprint Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DB9868A42DA6F43C009210E9 /* TimeMySprint Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TimeMySprint Watch App";
+			sourceTree = "<group>";
+		};
+		DB9868B52DA6F43E009210E9 /* TimeMySprint Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TimeMySprint Watch AppTests";
+			sourceTree = "<group>";
+		};
+		DB9868BF2DA6F43E009210E9 /* TimeMySprint Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TimeMySprint Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB98689D2DA6F43C009210E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9868AF2DA6F43E009210E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9868B92DA6F43E009210E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB9868932DA6F43C009210E9 = {
+			isa = PBXGroup;
+			children = (
+				DB9868A42DA6F43C009210E9 /* TimeMySprint Watch App */,
+				DB9868B52DA6F43E009210E9 /* TimeMySprint Watch AppTests */,
+				DB9868BF2DA6F43E009210E9 /* TimeMySprint Watch AppUITests */,
+				DB98689B2DA6F43C009210E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB98689B2DA6F43C009210E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB98689A2DA6F43C009210E9 /* TimeMySprint.app */,
+				DB9868A02DA6F43C009210E9 /* TimeMySprint Watch App.app */,
+				DB9868B22DA6F43E009210E9 /* TimeMySprint Watch AppTests.xctest */,
+				DB9868BC2DA6F43E009210E9 /* TimeMySprint Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB9868992DA6F43C009210E9 /* TimeMySprint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9868CA2DA6F43E009210E9 /* Build configuration list for PBXNativeTarget "TimeMySprint" */;
+			buildPhases = (
+				DB9868982DA6F43C009210E9 /* Resources */,
+				DB9868C92DA6F43E009210E9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB9868A32DA6F43C009210E9 /* PBXTargetDependency */,
+			);
+			name = TimeMySprint;
+			packageProductDependencies = (
+			);
+			productName = TimeMySprint;
+			productReference = DB98689A2DA6F43C009210E9 /* TimeMySprint.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		DB98689F2DA6F43C009210E9 /* TimeMySprint Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9868C62DA6F43E009210E9 /* Build configuration list for PBXNativeTarget "TimeMySprint Watch App" */;
+			buildPhases = (
+				DB98689C2DA6F43C009210E9 /* Sources */,
+				DB98689D2DA6F43C009210E9 /* Frameworks */,
+				DB98689E2DA6F43C009210E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DB9868A42DA6F43C009210E9 /* TimeMySprint Watch App */,
+			);
+			name = "TimeMySprint Watch App";
+			packageProductDependencies = (
+			);
+			productName = "TimeMySprint Watch App";
+			productReference = DB9868A02DA6F43C009210E9 /* TimeMySprint Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB9868B12DA6F43E009210E9 /* TimeMySprint Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9868CD2DA6F43E009210E9 /* Build configuration list for PBXNativeTarget "TimeMySprint Watch AppTests" */;
+			buildPhases = (
+				DB9868AE2DA6F43E009210E9 /* Sources */,
+				DB9868AF2DA6F43E009210E9 /* Frameworks */,
+				DB9868B02DA6F43E009210E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB9868B42DA6F43E009210E9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DB9868B52DA6F43E009210E9 /* TimeMySprint Watch AppTests */,
+			);
+			name = "TimeMySprint Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "TimeMySprint Watch AppTests";
+			productReference = DB9868B22DA6F43E009210E9 /* TimeMySprint Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB9868BB2DA6F43E009210E9 /* TimeMySprint Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9868D02DA6F43E009210E9 /* Build configuration list for PBXNativeTarget "TimeMySprint Watch AppUITests" */;
+			buildPhases = (
+				DB9868B82DA6F43E009210E9 /* Sources */,
+				DB9868B92DA6F43E009210E9 /* Frameworks */,
+				DB9868BA2DA6F43E009210E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB9868BE2DA6F43E009210E9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DB9868BF2DA6F43E009210E9 /* TimeMySprint Watch AppUITests */,
+			);
+			name = "TimeMySprint Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "TimeMySprint Watch AppUITests";
+			productReference = DB9868BC2DA6F43E009210E9 /* TimeMySprint Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB9868942DA6F43C009210E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DB9868992DA6F43C009210E9 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DB98689F2DA6F43C009210E9 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DB9868B12DA6F43E009210E9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DB98689F2DA6F43C009210E9;
+					};
+					DB9868BB2DA6F43E009210E9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DB98689F2DA6F43C009210E9;
+					};
+				};
+			};
+			buildConfigurationList = DB9868972DA6F43C009210E9 /* Build configuration list for PBXProject "TimeMySprint" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB9868932DA6F43C009210E9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DB98689B2DA6F43C009210E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB9868992DA6F43C009210E9 /* TimeMySprint */,
+				DB98689F2DA6F43C009210E9 /* TimeMySprint Watch App */,
+				DB9868B12DA6F43E009210E9 /* TimeMySprint Watch AppTests */,
+				DB9868BB2DA6F43E009210E9 /* TimeMySprint Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB9868982DA6F43C009210E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB98689E2DA6F43C009210E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9868B02DA6F43E009210E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9868BA2DA6F43E009210E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB98689C2DA6F43C009210E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9868AE2DA6F43E009210E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9868B82DA6F43E009210E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB9868A32DA6F43C009210E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB98689F2DA6F43C009210E9 /* TimeMySprint Watch App */;
+			targetProxy = DB9868A22DA6F43C009210E9 /* PBXContainerItemProxy */;
+		};
+		DB9868B42DA6F43E009210E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB98689F2DA6F43C009210E9 /* TimeMySprint Watch App */;
+			targetProxy = DB9868B32DA6F43E009210E9 /* PBXContainerItemProxy */;
+		};
+		DB9868BE2DA6F43E009210E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB98689F2DA6F43C009210E9 /* TimeMySprint Watch App */;
+			targetProxy = DB9868BD2DA6F43E009210E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB9868C42DA6F43E009210E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB9868C52DA6F43E009210E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DB9868C72DA6F43E009210E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeMySprint Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeMySprint;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SugDesigns.TimeMySprint.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		DB9868C82DA6F43E009210E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeMySprint Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeMySprint;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SugDesigns.TimeMySprint.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		DB9868CB2DA6F43E009210E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeMySprint;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SugDesigns.TimeMySprint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DB9868CC2DA6F43E009210E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeMySprint;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SugDesigns.TimeMySprint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB9868CE2DA6F43E009210E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SugDesigns.TimeMySprint-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeMySprint Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeMySprint Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		DB9868CF2DA6F43E009210E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SugDesigns.TimeMySprint-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeMySprint Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeMySprint Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		DB9868D12DA6F43E009210E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SugDesigns.TimeMySprint-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TimeMySprint Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		DB9868D22DA6F43E009210E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SugDesigns.TimeMySprint-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TimeMySprint Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB9868972DA6F43C009210E9 /* Build configuration list for PBXProject "TimeMySprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9868C42DA6F43E009210E9 /* Debug */,
+				DB9868C52DA6F43E009210E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9868C62DA6F43E009210E9 /* Build configuration list for PBXNativeTarget "TimeMySprint Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9868C72DA6F43E009210E9 /* Debug */,
+				DB9868C82DA6F43E009210E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9868CA2DA6F43E009210E9 /* Build configuration list for PBXNativeTarget "TimeMySprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9868CB2DA6F43E009210E9 /* Debug */,
+				DB9868CC2DA6F43E009210E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9868CD2DA6F43E009210E9 /* Build configuration list for PBXNativeTarget "TimeMySprint Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9868CE2DA6F43E009210E9 /* Debug */,
+				DB9868CF2DA6F43E009210E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9868D02DA6F43E009210E9 /* Build configuration list for PBXNativeTarget "TimeMySprint Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9868D12DA6F43E009210E9 /* Debug */,
+				DB9868D22DA6F43E009210E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB9868942DA6F43C009210E9 /* Project object */;
+}
